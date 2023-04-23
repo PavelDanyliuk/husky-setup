@@ -1,0 +1,14 @@
+{
+  "name": "custom-husky-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node setup.js && git config core.hooksPath .husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^8.0.3"
+  }
+}
